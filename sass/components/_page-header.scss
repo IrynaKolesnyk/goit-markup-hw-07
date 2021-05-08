@@ -1,0 +1,141 @@
+//Page-header
+
+.site-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+//logo
+
+.logo__word-blue {
+  color: $accent-color;
+  display: inline-block;
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.site-footer__logo {
+  color: $primary-bg-color;
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+//site-nav
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+
+  @extend %list;
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav__link {
+  position: relative;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: $title-color;
+  font-weight: 500;
+  font-size: 14px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.site-nav__link--current {
+  color: $accent-color;
+
+  &::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
+}
+
+//contacts-header
+
+.header-contacts {
+  display: inline-flex;
+  margin-left: auto;
+  padding-left: 0;
+
+  @extend %list;
+}
+
+.header-contacts__item {
+  margin-right: 30px;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.contacts-link__icon-envelope,
+.contacts-link__icon-phone {
+  margin-right: 10px;
+  fill: currentColor;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
