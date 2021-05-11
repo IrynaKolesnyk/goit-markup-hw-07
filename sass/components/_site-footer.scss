@@ -9,9 +9,11 @@
 
 .site-footer__content {
   display: flex;
+  margin: -15px;
 }
 
 .footer-contacts {
+  margin: 15px;
   flex-basis: calc((50% - 45px) / 2);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -42,8 +44,10 @@
 //join
 
 .join {
+  margin: 15px;
   flex-basis: calc((50% - 45px) / 2);
   padding-top: 72px;
+  margin-left: 15px;
 }
 
 .join__title {
@@ -72,6 +76,7 @@
 //subscribe
 
 .subscribe {
+  margin: 15px;
   flex-basis: calc(50% - 15px);
 
   padding-top: 72px;
@@ -96,10 +101,10 @@
 }
 
 .subscribe__input {
-  display: block;
+  display: flex;
   margin-right: 12px;
   padding: 15px 0 15px 16px;
-  flex-grow: 1;
+  flex-grow: 3;
 
   background-color: $dark-bg-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
