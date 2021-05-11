@@ -777,7 +777,6 @@ img {
   -ms-flex-preferred-size: calc((50% - 45px) / 2);
       flex-basis: calc((50% - 45px) / 2);
   padding-top: 72px;
-  margin-left: 15px;
 }
 
 .join__title {
@@ -824,8 +823,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: calc(50% - 15px);
-      flex-basis: calc(50% - 15px);
 }
 
 .subscribe-form__label {
