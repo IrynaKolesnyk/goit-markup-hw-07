@@ -95,16 +95,20 @@
 
 //subscribe content
 
-.subscribe__form {
+.subscribe-form {
   display: flex;
   flex-basis: calc(50% - 15px);
 }
 
-.subscribe__input {
-  display: flex;
+.subscribe-form__label {
+  flex-grow: 1;
   margin-right: 12px;
+}
+.subscribe__input {
+  display: block;
+
   padding: 15px 0 15px 16px;
-  flex-grow: 3;
+  width: 100%;
 
   background-color: $dark-bg-color;
   border: 1px solid rgba(255, 255, 255, 0.3);

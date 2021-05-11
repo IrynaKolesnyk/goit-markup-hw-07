@@ -820,7 +820,7 @@ img {
   color: #ffffff;
 }
 
-.subscribe__form {
+.subscribe-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -828,15 +828,17 @@ img {
       flex-basis: calc(50% - 15px);
 }
 
-.subscribe__input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.subscribe-form__label {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin-right: 12px;
+}
+
+.subscribe__input {
+  display: block;
   padding: 15px 0 15px 16px;
-  -webkit-box-flex: 3;
-      -ms-flex-positive: 3;
-          flex-grow: 3;
+  width: 100%;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
