@@ -835,7 +835,7 @@ img {
   margin-right: 12px;
 }
 
-.subscribe__input {
+.subscribe-form__input {
   display: block;
   padding: 15px 0 15px 16px;
   width: 100%;
@@ -847,25 +847,25 @@ img {
   color: #ffffff;
 }
 
-.subscribe__input::-webkit-input-placeholder {
+.subscribe-form__input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe__input:-ms-input-placeholder {
+.subscribe-form__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe__input::-ms-input-placeholder {
+.subscribe-form__input::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe__input::placeholder {
+.subscribe-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
